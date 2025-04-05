@@ -36,3 +36,6 @@ def voice():
 @app.route('/')
 def home():
     return "<h3>ESP32 Alert Flask Server Running</h3>"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
