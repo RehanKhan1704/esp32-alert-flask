@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say voice="alice">Alert from ESP32 detected. Please check your device immediately.</Say>
+</Response>
