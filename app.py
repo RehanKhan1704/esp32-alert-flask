@@ -3,9 +3,6 @@ from twilio.rest import Client
 import os
 from datetime import datetime
 
-# Load environment variables
-load_dotenv()
-
 app = Flask(__name__)
 
 # Get Twilio credentials and phone numbers from environment variables
